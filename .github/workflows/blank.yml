@@ -38,7 +38,7 @@ jobs:
         uses: actions/setup-go@v2.1.5
         with:
           # The Go version to download (if necessary) and use. Supports semver spec and ranges.
-          go-version: 16
+          go-version: 1.16
           # Whether to download only stable versions
           stable: true
           # Used to pull node distributions from go-versions.  Since there's a default, this is typically not supplied by the user.
